@@ -1,0 +1,111 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ImageSlideshow (1.8.0):
+    - ImageSlideshow/Core (= 1.8.0)
+  - ImageSlideshow/AFURL (1.8.0):
+    - AFNetworking (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.8.0)
+  - mailcore2-ios (0.6.4)
+  - MarqueeLabel (4.0.0)
+  - MaterialComponents/AnimationTiming (84.4.0)
+  - MaterialComponents/Buttons (84.4.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (84.4.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (84.4.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (84.4.0)
+  - MaterialComponents/private/KeyboardWatcher (84.4.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (84.4.0)
+  - MaterialComponents/private/Overlay (84.4.0)
+  - MaterialComponents/Ripple (84.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (84.4.0)
+  - MaterialComponents/ShadowLayer (84.4.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (84.4.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Snackbar (84.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (84.4.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+
+DEPENDENCIES:
+  - ImageSlideshow (~> 1.8)
+  - ImageSlideshow/AFURL
+  - mailcore2-ios
+  - MarqueeLabel
+  - MaterialComponents/Snackbar
+  - MMDrawerController (~> 0.5.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ImageSlideshow
+    - mailcore2-ios
+    - MarqueeLabel
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - MMDrawerController
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ImageSlideshow: 197130fe349aafa9446f54277c792551d41eadf9
+  mailcore2-ios: 3ff0be2fa553d4da9c11d39c11d51863c768f24f
+  MarqueeLabel: b55b26e690b6ad41faedd95cbf5eae6f1d1735b4
+  MaterialComponents: e31f67324695bb1b537e5eccaee62db07ac3d06b
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+
+PODFILE CHECKSUM: dad5951b252aa930f5d3a7b73a33d9cf25e35b1c
+
+COCOAPODS: 1.7.2
